@@ -1,0 +1,121 @@
+{
+  "width": 800,
+  "height": 600,
+  "background": "white",
+  "nodes": [
+    {
+      "id": "17214bb721d65c81",
+      "content": {
+        "text": "Wake up",
+        "color": "white"
+      },
+      "width": 45,
+      "height": 90,
+      "stroke": "black",
+      "strokeWeight": "2",
+      "shape": "rectangle",
+      "point": {
+        "x": 0,
+        "y": 10
+      }
+    },
+    {
+      "id": "17214bbccb87e56a",
+      "content": {
+        "text": "Brush my teeth",
+        "color": "white"
+      },
+      "width": 45,
+      "height": 90,
+      "point": {
+        "x": 50,
+        "y": 0
+      },
+      "shape": "rectangle",
+      "stroke": "black",
+      "strokeWeight": "2"
+    },
+    {
+      "id": "17214bd99f6dfb81",
+      "content": {
+        "text": "Have breakfast",
+        "color": "white"
+      },
+      "width": 45,
+      "height": 90,
+      "point": {
+        "x": 100,
+        "y": 0
+      },
+      "shape": "rectangle",
+      "stroke": "black",
+      "strokeWeight": "2"
+    },
+    {
+      "id": "17214beb6802f9d5",
+      "content": {
+        "text": "Have lunch",
+        "color": "white"
+      },
+      "width": 45,
+      "height": 90,
+      "stroke": "black",
+      "strokeWeight": "2",
+      "shape": "rectangle",
+      "point": {
+        "x": 150,
+        "y": 0
+      }
+    },
+    {
+      "id": "17214bf28b22eb4c",
+      "content": {
+        "text": "Siesta",
+        "color": "white"
+      },
+      "width": 45,
+      "height": 90,
+      "stroke": "black",
+      "strokeWeight": "2",
+      "shape": "rectangle",
+      "point": {
+        "x": 150,
+        "y": 0
+      }
+    },
+    {
+      "id": "17214bf4e485a3d7",
+      "content": {
+        "text": "Have dinner",
+        "color": "white"
+      },
+      "width": 45,
+      "height": 90,
+      "point": {
+        "x": 200,
+        "y": 0
+      },
+      "shape": "rectangle",
+      "stroke": "black",
+      "strokeWeight": "2"
+    },
+    {
+      "id": "17214bfb13e18321",
+      "content": {
+        "text": "Go to bed",
+        "color": "white"
+      },
+      "width": 45,
+      "height": 90,
+      "point": {
+        "x": 250,
+        "y": 0
+      },
+      "shape": "rectangle",
+      "stroke": "black",
+      "strokeWeight": "2"
+    }
+  ],
+  "links": [],
+  "showGrid": false
+}

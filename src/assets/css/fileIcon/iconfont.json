@@ -1,0 +1,93 @@
+{
+  "id": "2558205",
+  "name": "erpv5-file-icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6233091",
+      "name": "SVG图标",
+      "font_class": "svg",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "204766",
+      "name": "what",
+      "font_class": "what",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "2317546",
+      "name": "TXT",
+      "font_class": "txt",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "3110858",
+      "name": "文件夹",
+      "font_class": "wenjianjia",
+      "unicode": "e7af",
+      "unicode_decimal": 59311
+    },
+    {
+      "icon_id": "5960996",
+      "name": "图片",
+      "font_class": "tupian",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "7946887",
+      "name": "mp3",
+      "font_class": "mp",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "9597663",
+      "name": "pdf",
+      "font_class": "pdf",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "11190310",
+      "name": "video",
+      "font_class": "video",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "11524738",
+      "name": "word",
+      "font_class": "word",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "15418022",
+      "name": "zip",
+      "font_class": "zip",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "20624003",
+      "name": "xlsx",
+      "font_class": "xlsx",
+      "unicode": "e742",
+      "unicode_decimal": 59202
+    },
+    {
+      "icon_id": "20668402",
+      "name": "ppt",
+      "font_class": "ppt",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    }
+  ]
+}

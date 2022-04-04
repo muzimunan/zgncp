@@ -1,0 +1,164 @@
+.znp-table-container{
+  padding-bottom: 50px;
+  background-color: #fff;
+  ::v-deep .el-table th {
+    color: rgba(0,0,0,.85);
+  }
+}
+// 弹框是增删改查
+.znp-crud-dialog{
+  ::v-deep .el-dialog__body {
+    padding: 20px 80px 5px 50px;;
+  }
+  ::v-deep .el-dialog__footer{
+    padding-right: 80px;
+    padding-bottom: 40px;
+  }
+  ::v-deep .el-dialog__header {
+    padding: 30px 20px 20px;
+    text-align: center;
+  }
+  ::v-deep .el-dialog__headerbtn {
+    top: 30px;
+    right: 80px;
+    font-size: 17px;
+  }
+  ::v-deep .el-col {
+      margin-bottom: 0px;
+  }
+  ::v-deep .el-divider--horizontal {
+      width: 99%;
+      margin: 0px 24px 18px 24px;
+  }
+}
+// 弹框是表格
+.znp-crud-dialog-inner-table{
+  ::v-deep .el-dialog__body {
+    padding: 0px 50px 5px 50px;;
+  }
+  .znp-table-container{
+    padding-bottom: 100px;
+  }
+}
+/* .znp-show-dialog{
+  ::v-deep .el-dialog__body {
+    padding: 20px 50px 5px 40px;
+  }
+  ::v-deep .el-dialog__footer{
+    padding: 20px 20px 35px;
+    text-align: center;
+  }
+  ::v-deep .el-dialog__header {
+    padding: 30px 20px 20px;
+    text-align: center;
+  }
+  ::v-deep .el-dialog__headerbtn {
+    top: 30px;
+    right: 50px;
+    font-size: 17px;
+  }
+} */
+.znp-report{
+  ::v-deep .formBtn .el-form-item__label{
+    visibility: hidden !important;
+  }
+  .el-form-item--small.el-form-item {
+      margin-bottom: 10px;
+  }
+}
+/*去掉表单某个字段前面的小红星*/
+::v-deep .znp-remove-start.el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before {
+  content: '';
+  width: 0px;
+  margin-right: 0px;
+}
+::v-deep .el-input.is-disabled .el-input__inner {
+  color: #606266;
+}
+//  crud是页面的展现形式（例如：业主管理页面 物业档案管理页面 商户管理页面）
+.znp-form-wraper{
+  background-color: #fff;
+  padding: 40px 100px 50px 40px;
+  width: 1000px;
+  margin: 0 auto;
+  .el-col{
+    margin-bottom: 0px;
+  }
+  .form-title{
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+    color: #303133;
+  }
+  .bg-image{
+    width: 35%;
+  }
+  .go-back{
+    padding-left: 80px;
+    a{
+      font-size: 16px;
+    }
+  }
+  ::v-deep .el-divider--horizontal{
+    margin: 24px 35px !important;
+  }
+}
+.znp-tables-wrap{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  ::v-deep .znp-table-add-btn{
+    width:100% !important;
+    text-align:right !important;
+    margin-bottom:5px !important;
+  }
+  .common-person,.sale-contract,.rent-register,.rent-contract,.fee-item{
+    background-color: #fff;
+    padding: 10px 40px 68px;
+  }
+  .common-person,.rent-register,.rent-contract,.fee-item{
+    margin-bottom: 20px;
+  }
+}
+// 文件图标格式（例如：新增销售合同）
+.znp-multiple-files{
+  margin-right:  16px;
+  .znp-file-icon{
+    vertical-align: -0.35em;
+    fill: currentColor;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+  }
+  a{
+    line-height: 16px !important;
+    margin-left:5px !important;
+    margin-top:-4px !important;
+  }
+}
+// 红色字体标记
+.znp-red-sign{
+  color: red;
+}
+// 查看页面的字体颜色和鼠标样式统一修改
+::v-deep .el-input.is-disabled .el-input__inner {
+  color: #606266 !important;
+  cursor: default !important;
+}
+::v-deep .el-textarea.is-disabled .el-textarea__inner{
+  color: #606266 !important;
+  cursor: default !important;
+}
+::v-deep .el-radio__input.is-disabled+span.el-radio__label{
+  color: #606266 !important;
+  cursor: default !important;
+}
+// 数字填写控件文字靠左
+::v-deep .el-input-number.is-without-controls .el-input__inner {
+  text-align: left !important;
+}
+// 用于解决使用elementUi表格固定列时，滚动条拖不动
+::v-deep .el-table__body-wrapper{
+  z-index: 2
+}
